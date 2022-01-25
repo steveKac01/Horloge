@@ -1,0 +1,39 @@
+:root{
+height: 100%;
+}
+body{
+    margin: 0;
+    height : 100%;
+}
+header{
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.horloge-container{
+    flex-grow : 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.horloge{
+width: 800px;
+height: 800px;
+background-image:url("../img/cadre.png");
+position: relative;
+}
+.min, .sec, .hours, .end{
+    position: absolute;
+    top:0px;
+}
+footer{ width: 100%;
+    background-color: black;
+    height: 100px;
+}
